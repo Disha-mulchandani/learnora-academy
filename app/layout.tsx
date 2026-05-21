@@ -17,49 +17,38 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-   title: "LearnAtHome | 1:1 Online Tutoring in Coding, Math & School Subjects",
-  description: "Join LearnAtHome for personalized 1:1 online tutoring in coding, math, and school subjects. Learn from expert tutors anytime, anywhere.",
+  title:
+    "LearnAtHome | Online Tutoring for USA & Global Students | Math, SAT, Science & Coding",
+
+  description:
+    "LearnAtHome offers personalized 1:1 online tutoring for students in the USA and worldwide. Expert tutoring in Math, Science, English, Coding, SAT & ACT preparation for Grades 1–12.",
+
   keywords: [
-    "Tutor at home",
-    "Online classes",
-    "online tuition",
-    "online tutoring",
-    "home tuition",
-    "private tutor",
-    "online learning",
-    "virtual classes",
-    "Indian teachers",
-    "Indian tutors",
-    "worldwide learners",
-    "international students",
-    "English classes",
-    "coding classes",
-    "creative writing classes",
-    "science tuition",
-    "AP Computer Science",
-    "computer science tutor",
-    "kids online classes",
-    "student learning platform",
-    "personalized learning",
-    "one to one tutoring",
-    "online education",
-    "e learning",
-    "study from home",
-    "best online tuition",
-    "live online classes",
-    "online coaching",
+    "online tutoring USA",
+    "online math tutor",
+    "SAT math help",
+    "ACT preparation",
+    "Grades 1-12 tutoring",
+    "Common Core math",
+    "algebra tutor online",
+    "geometry tutoring",
+    "science tutoring",
+    "English tutoring",
+    "coding classes online",
+    "private online tutor",
+    "1:1 tutoring",
+    "virtual learning",
+    "online classes for students",
+    "USA students tutoring",
+    "international students learning",
+    "British curriculum tutoring",
+    "IB tutoring",
+    "online learning platform",
     "academic tutoring",
-    "global learning platform",
-    "teacher for students",
-    "online tutor India",
-    "affordable online tuition",
-    "interactive learning",
-    "learning academy",
-    "education platform",
-    "school tuition",
-    "online classes for kids",
-    "online tuition for students",
-    "best tutors online",
+    "step by step learning",
+    "home learning platform",
+    "interactive online classes",
+    "personalized education",
   ],
 
   verification: {
@@ -74,10 +63,10 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="en-US"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">
+      <body className="min-h-full flex flex-col bg-white text-gray-900">
 
         <Navbar />
 

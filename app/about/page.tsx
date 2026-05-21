@@ -16,8 +16,10 @@ export default function AboutPage() {
         </h1>
 
         <p className="mt-6 text-lg text-gray-600">
-          A modern 1:1 online tutoring platform helping students learn Coding,
-          Math, Science, and English with expert guidance.
+          LearnAtHome supports students following the USA Common Core,
+            British Curriculum, CBSE, ICSE, IB, and other international learning
+            programs. Our personalized tutoring helps students improve grades,
+            strengthen concepts, and build confidence.
         </p>
       </div>
 
