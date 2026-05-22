@@ -3,6 +3,42 @@ import Link from "next/link";
 export default function CoursesPage() {
 
   const courses = [
+
+{
+  title: "Homework Help",
+  slug: "homework-help-online",
+  level: "All Grades",
+  titleColor: "text-green-700",
+  color: "from-green-500 to-emerald-400",
+  icon: "🧠",
+  description:
+    "Get online homework help in Math, Science, English, Coding, and school subjects through expert tutoring.",
+},
+{
+  title: "SAT Math Preparation",
+  slug: "sat-math-preparation",
+  level: "Exam Preparation",
+  titleColor: "text-blue-700",
+  color: "from-blue-600 to-indigo-500",
+  icon: "🎯",
+  description:
+    "Master SAT Math through algebra, geometry, practice tests, and personalized online tutoring for USA students.",
+},
+
+{
+  title: "Algebra ",
+  slug: "algebra",
+  level: "All Grades",
+  titleColor: "text-indigo-700",
+  color: "from-indigo-600 to-purple-500",
+  icon: "📘",
+  description:
+    "Learn algebra step-by-step with equations, worksheets, homework help, and beginner-friendly explanations.",
+},
+
+
+
+
     {
       title: "English Speaking",
       slug: "english-speaking-classes",
@@ -83,6 +119,7 @@ export default function CoursesPage() {
       description:
         "Learn biology with diagrams, interactive explanations, and simplified lessons designed for student success.",
     },
+
     {
       title: "Hindi",
       slug: "online-hindi-classes",

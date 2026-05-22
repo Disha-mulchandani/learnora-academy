@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-
 import "./globals.css";
 
 import Navbar from "@/components/Navbar";
@@ -25,48 +24,22 @@ export const metadata: Metadata = {
 
   keywords: [
     "online tutoring USA",
-    "online math tutor",
-    "SAT math help",
-    "ACT preparation",
-    "Grades 1-12 tutoring",
-    "Common Core math",
-    "algebra tutor online",
-    "geometry tutoring",
-    "science tutoring",
-    "English tutoring",
+    "SAT math tutor",
     "coding classes online",
-    "private online tutor",
-    "1:1 tutoring",
-    "virtual learning",
-    "online classes for students",
-    "USA students tutoring",
-    "international students learning",
-    "British curriculum tutoring",
-    "IB tutoring",
-    "online learning platform",
-    "academic tutoring",
-    "step by step learning",
-    "home learning platform",
-    "interactive online classes",
-    "personalized education",
+    "math tutoring",
+    "science tutoring",
+    "english tutor online",
   ],
-
-  verification: {
-    google: "KrQ2D3GxzuRSRjWQrx-lIswKXGged1rcoDFyIk2oYNE",
-  },
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <html
-      lang="en-US"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col bg-white text-gray-900">
+    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className="min-h-screen flex flex-col bg-white text-gray-900">
 
         <Navbar />
 

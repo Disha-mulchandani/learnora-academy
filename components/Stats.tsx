@@ -6,7 +6,7 @@ export default function Stats() {
       label: "Classes Conducted"
     },
     {
-      number: "1000+",
+      number: "100+",
       label: "Students Worldwide"
     },
     {

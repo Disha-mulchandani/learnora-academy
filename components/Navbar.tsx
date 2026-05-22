@@ -28,7 +28,7 @@ export default function Navbar() {
               </h1>
 
               <p className="text-xs text-gray-500 -mt-1 tracking-wide">
-             1:1 Online Tutoring Platform worldwide.
+               1:1 Online Tutoring for USA,UK & Worldwide Students
               </p>
 
             </div>
@@ -38,7 +38,7 @@ export default function Navbar() {
         </Link>
 
         {/* NAVIGATION */}
-        <div className="hidden md:flex items-center gap-10 text-gray-700 font-semibold">
+        <div className="flex items-center gap-8 text-gray-700 font-semibold text-sm xl:text-base">
 
           <Link
             href="/"
@@ -46,16 +46,15 @@ export default function Navbar() {
           >
             Home
           </Link>
-<Link
-  href="/courses"
-  className="hover:text-blue-600 transition duration-300"
->
-  Courses
-</Link>
-           
-          <Link href="/become-a-teacher">
-    Become a Teacher
-</Link>
+
+          <Link
+            href="/courses"
+            className="hover:text-blue-600 transition duration-300"
+          >
+            Courses
+          </Link>
+
+
           <Link
             href="/about"
             className="hover:text-blue-600 transition duration-300"
@@ -69,14 +68,15 @@ export default function Navbar() {
           >
             Contact
           </Link>
-<Link
-  href="/blog"
-  className="hover:text-blue-600 transition duration-300"
->
-  Blog
-</Link>
+
+          <Link
+            href="/blog"
+            className="hover:text-blue-600 transition duration-300"
+          >
+            Blog
+          </Link>
+
         </div>
-        
 
         {/* CTA BUTTON */}
         <Link href="/student-enrollment">

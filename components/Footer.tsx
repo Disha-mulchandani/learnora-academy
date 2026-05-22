@@ -12,11 +12,15 @@ export default function Footer() {
           <h2 className="text-4xl font-extrabold">
             LearnAtHome Academy
           </h2>
+          <p className="mt-4 text-gray-500">
+  Serving students in the USA, Canada, UK, UAE, Australia & worldwide.
+</p>
 
           <p className="mt-6 text-gray-400 text-lg leading-relaxed">
             Interactive online classes for English, Coding,
             Creative Writing, Science, Languages, and more.
           </p>
+          
 
         </div>
 
