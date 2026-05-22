@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Online Physics Classes for Students | LearnAtHome",
+  title: "Online Physics Classes for Students | LearnGurukul",
 
   description:
     "Learn Physics online through interactive tutoring, problem-solving, visual explanations, and personalized support for school students worldwide.",

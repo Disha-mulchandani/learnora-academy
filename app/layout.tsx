@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+
 import "./globals.css";
 
 import Navbar from "@/components/Navbar";
@@ -16,30 +17,59 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title:
-    "LearnAtHome | Online Tutoring for USA & Global Students | Math, SAT, Science & Coding",
+  metadataBase: new URL("https://learngurukul.com"),
+
+  title: {
+    default:
+      "LearnGurukul | 1:1 Online Tutoring for USA & Global Students",
+    template: "%s | LearnGurukul",
+  },
 
   description:
-    "LearnAtHome offers personalized 1:1 online tutoring for students in the USA and worldwide. Expert tutoring in Math, Science, English, Coding, SAT & ACT preparation for Grades 1–12.",
+    "LearnGurukul offers expert-led 1:1 online tutoring for students in the USA and worldwide. Personalized classes for Math, SAT, English, Reading, Creative Writing, Science, Coding, and homework help for Grades 1–12.",
 
   keywords: [
-    "online tutoring USA",
+    "online tutoring",
+    "1:1 online tutoring",
+    "online tutor",
+    "online classes",
+    "math tutor online",
+    "english tutor online",
+    "creative writing classes",
     "SAT math tutor",
     "coding classes online",
-    "math tutoring",
     "science tutoring",
-    "english tutor online",
+    "homework help online",
+    "reading tutor online",
+    "USA online tutoring",
+    "global online classes",
+    "LearnGurukul",
   ],
+
+  openGraph: {
+    title:
+      "LearnGurukul | Online Tutoring for Math, English, SAT & Coding",
+
+    description:
+      "Expert 1:1 online tutoring for students worldwide.",
+
+    siteName: "LearnGurukul",
+
+    type: "website",
+  },
 };
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode;
-}) {
+}>) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
-      <body className="min-h-screen flex flex-col bg-white text-gray-900">
+    <html
+      lang="en"
+      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+    >
+      <body className="min-h-full flex flex-col bg-white text-gray-900">
 
         <Navbar />
 

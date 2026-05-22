@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Online Biology Classes | LearnAtHome",
+  title: "Online Biology Classes | LearnGurukul",
   description:
     "Interactive Biology tutoring for students worldwide with diagrams, visual explanations, and personalized guidance.",
 };

@@ -1,124 +1,275 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title:
+    "Best Online English & Creative Writing Classes for Students | LearnGurukul",
+
+  description:
+    "Discover personalized 1:1 online English and Creative Writing classes for students worldwide. Improve reading, vocabulary, grammar, storytelling, and communication skills with LearnGurukul.",
+
+  keywords: [
+    "online english tutor",
+    "creative writing classes",
+    "english classes online",
+    "reading comprehension tutor",
+    "essay writing classes",
+    "english speaking classes",
+    "vocabulary improvement",
+    "writing skills for kids",
+    "online tutoring USA",
+    "1:1 online tutoring",
+    "english grammar classes",
+    "story writing classes",
+    "communication skills for students",
+    "LearnGurukul",
+  ],
+};
 
 export default function BlogPage() {
   return (
-    <main className="min-h-screen bg-white px-6 py-20 max-w-4xl mx-auto">
+    <main className="min-h-screen bg-[#f8fbff] px-6 py-24">
 
-      {/* TITLE */}
-      <h1 className="text-4xl font-extrabold text-blue-700">
-        Best Online Tutoring for Students in 2026
-      </h1>
+      <div className="max-w-4xl mx-auto">
 
-      {/* INTRO */}
-      <p className="mt-6 text-lg text-gray-700 leading-relaxed">
-        Online tutoring has become one of the most effective ways for students
-        to learn coding, math, science, and English.
-        Platforms like <span className="text-blue-600 font-semibold">LearnAtHome</span>
-        offer personalized 1:1 online tutoring that helps students learn faster and better.
-      </p>
+        {/* HERO */}
+        <div className="text-center">
 
-      {/* SECTION 1 */}
-      <h2 className="mt-10 text-2xl font-bold text-black">
-        Why Online Tutoring is Important
-      </h2>
+          <div className="inline-block bg-blue-100 text-blue-700 px-5 py-2 rounded-full font-semibold text-sm">
+            English Learning • Creative Writing • Reading Skills
+          </div>
 
-      <p className="mt-3 text-gray-700">
-        Online tutoring gives students flexibility, personal attention, and access
-        to expert teachers from anywhere in the world.
-      </p>
+          <h1 className="mt-8 text-5xl md:text-6xl font-extrabold text-gray-900 leading-tight">
+            Best Online English & Creative Writing Classes for Students
+          </h1>
 
-      {/* SECTION 2 */}
-      <h2 className="mt-10 text-2xl font-bold text-black">
-        Benefits of 1:1 Learning
-      </h2>
+          <p className="mt-8 text-xl text-gray-600 leading-relaxed">
+            Personalized 1:1 online English tutoring and creative writing
+            classes designed to help students improve reading,
+            grammar, vocabulary, storytelling, and communication skills.
+          </p>
 
-      <ul className="mt-4 list-disc pl-6 text-gray-700 space-y-2">
-        <li>Personalized learning experience</li>
-        <li>Better understanding of concepts</li>
-        <li>Instant doubt solving</li>
-        <li>Flexible schedule</li>
-      </ul>
+        </div>
 
-      {/* SECTION 3 */}
-      <h2 className="mt-10 text-2xl font-bold text-black">
-        Best Subjects to Learn Online
-      </h2>
+        
+        {/* INTRO */}
+        <section className="mt-16">
 
-      <p className="mt-3 text-gray-700">
-        Students can learn Coding, Python, Java, Math, Science, and English
-        through structured online courses and live classes.
-      </p>
+          <h2 className="text-3xl font-bold text-gray-900">
+            Why English & Writing Skills Matter
+          </h2>
 
-      {/* SECTION 4 */}
-      <h2 className="mt-10 text-2xl font-bold text-black">
-        How LearnAtHome Helps Students
-      </h2>
+          <p className="mt-6 text-lg text-gray-700 leading-relaxed">
+            Strong English communication and writing skills help students
+            succeed academically and confidently express their ideas.
+            From reading comprehension and essay writing to storytelling
+            and public speaking, these skills are essential for school,
+            future careers, and everyday communication.
+          </p>
 
-      <p className="mt-3 text-gray-700">
-        LearnAtHome provides 1:1 online tutoring with expert teachers,
-        interactive sessions, and real-world learning examples.
-      </p>
+          <p className="mt-6 text-lg text-gray-700 leading-relaxed">
+            At <span className="font-semibold text-blue-700">LearnGurukul</span>,
+            students from the USA and worldwide receive personalized online
+            tutoring that focuses on creativity, confidence, vocabulary growth,
+            grammar improvement, and communication development.
+          </p>
 
-      {/* INTERNAL LINKS */}
-      <div className="mt-10 space-y-4">
+        </section>
 
-  <div className="mt-12 grid md:grid-cols-2 gap-6">
-<Link
-  href="/blog/creative-writing"
-  className="block p-6 border rounded-xl hover:shadow transition"
->
-  <h2 className="text-xl font-bold text-blue-600">
-    Creative Writing for Students
-  </h2>
-  <p className="text-gray-600 mt-2">
-    Improve imagination, vocabulary, and storytelling skills with expert guidance.
-  </p>
-</Link>
-  {/* COURSES CARD */}
-  <Link
-    href="/courses"
-    className="p-6 border rounded-2xl shadow-sm hover:shadow-md transition bg-white group"
-  >
-    <h3 className="text-lg font-bold text-blue-600 group-hover:text-blue-600">
-      📚 Explore Online Courses
-    </h3>
-    <p className="mt-2 text-gray-600 text-sm">
-      Learn Coding, Math, Science, and English with expert tutors.
-    </p>
-  </Link>
+        {/* BENEFITS */}
+        <section className="mt-16">
 
-  {/* CONTACT CARD */}
-  <Link
-    href="/contact"
-    className="p-6 border rounded-2xl shadow-sm hover:shadow-md transition bg-white group"
-  >
-    <h3 className="text-lg font-bold text-blue-600 group-hover:text-blue-600">
-      💬 Contact LearnAtHome
-    </h3>
-    <p className="mt-2 text-gray-600 text-sm">
-      Book your free demo class or ask any questions instantly.
-    </p>
-  </Link>
+          <h2 className="text-3xl font-bold text-gray-900">
+            Benefits of 1:1 Online English Tutoring
+          </h2>
 
-</div>
-</div>
+          <div className="grid md:grid-cols-2 gap-6 mt-10">
 
-      {/* CTA */}
-      <div className="mt-16 text-center bg-blue-50 p-8 rounded-2xl">
-        <h2 className="text-2xl font-bold">
-          Start Learning Today 🚀
-        </h2>
+            <div className="bg-white p-8 rounded-3xl shadow-sm border">
+              <h3 className="text-xl font-bold text-blue-700">
+                📚 Reading Comprehension
+              </h3>
 
-        <p className="mt-2 text-gray-600">
-          Book your free demo class and start your learning journey.
-        </p>
+              <p className="mt-4 text-gray-600 leading-relaxed">
+                Improve reading fluency, understanding, vocabulary,
+                and critical thinking skills through guided lessons.
+              </p>
+            </div>
 
-        <Link
-          href="/student-enrollment"
-          className="inline-block mt-5 bg-blue-600 text-white px-8 py-4 rounded-xl font-semibold hover:bg-blue-700 transition"
-        >
-          Book Free Demo
-        </Link>
+            <div className="bg-white p-8 rounded-3xl shadow-sm border">
+              <h3 className="text-xl font-bold text-purple-700">
+                ✍️ Creative Writing
+              </h3>
+
+              <p className="mt-4 text-gray-600 leading-relaxed">
+                Learn storytelling, descriptive writing, essay writing,
+                and imaginative thinking with engaging activities.
+              </p>
+            </div>
+
+            <div className="bg-white p-8 rounded-3xl shadow-sm border">
+              <h3 className="text-xl font-bold text-pink-700">
+                🎤 Communication Skills
+              </h3>
+
+              <p className="mt-4 text-gray-600 leading-relaxed">
+                Build confidence in speaking, presentations,
+                pronunciation, and conversational English.
+              </p>
+            </div>
+
+            <div className="bg-white p-8 rounded-3xl shadow-sm border">
+              <h3 className="text-xl font-bold text-green-700">
+                🌍 Global Learning
+              </h3>
+
+              <p className="mt-4 text-gray-600 leading-relaxed">
+                Flexible online classes available for students
+                in the USA, UK, Canada, UAE, India, and worldwide.
+              </p>
+            </div>
+
+          </div>
+
+        </section>
+
+        {/* WHY PARENTS */}
+        <section className="mt-16 bg-white p-10 rounded-[35px] shadow-sm border">
+
+          <h2 className="text-3xl font-bold text-gray-900">
+            Why Parents Choose LearnGurukul
+          </h2>
+
+          <ul className="mt-8 space-y-4 text-lg text-gray-700">
+
+            <li>
+              ✅ Personalized 1:1 online tutoring sessions
+            </li>
+
+            <li>
+              ✅ Experienced English and Creative Writing tutors
+            </li>
+
+            <li>
+              ✅ Flexible schedules for global students
+            </li>
+
+            <li>
+              ✅ Interactive and engaging lessons
+            </li>
+
+            <li>
+              ✅ Focus on confidence, creativity, and communication
+            </li>
+
+          </ul>
+
+        </section>
+
+        {/* RELATED COURSES */}
+        <section className="mt-16">
+
+          <h2 className="text-3xl font-bold text-gray-900">
+            Explore Related Courses
+          </h2>
+
+          <div className="grid md:grid-cols-2 gap-6 mt-10">
+
+            <Link
+              href="/creative-writing-classes"
+              className="bg-white p-8 rounded-3xl border shadow-sm hover:shadow-xl transition"
+            >
+              <h3 className="text-2xl font-bold text-purple-700">
+                ✍️ Creative Writing Classes
+              </h3>
+
+              <p className="mt-4 text-gray-600">
+                Improve storytelling, imagination, and writing confidence.
+              </p>
+            </Link>
+
+            <Link
+              href="/online-english-classes"
+              className="bg-white p-8 rounded-3xl border shadow-sm hover:shadow-xl transition"
+            >
+              <h3 className="text-2xl font-bold text-blue-700">
+                📖 Online English Classes
+              </h3>
+
+              <p className="mt-4 text-gray-600">
+                Learn grammar, vocabulary, speaking, and reading skills.
+              </p>
+            </Link>
+
+          </div>
+
+        </section>
+
+        {/* FAQ */}
+        <section className="mt-16">
+
+          <h2 className="text-3xl font-bold text-gray-900">
+            Frequently Asked Questions
+          </h2>
+
+          <div className="mt-10 space-y-8">
+
+            <div>
+              <h3 className="text-xl font-bold text-blue-600">
+                Are classes personalized?
+              </h3>
+
+              <p className="mt-3 text-gray-700">
+                Yes, all LearnGurukul classes are personalized according
+                to each student’s level, goals, and learning style.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold text-blue-600">
+                Which age groups do you teach?
+              </h3>
+
+              <p className="mt-3 text-gray-700">
+                We teach students from elementary school to high school.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold text-blue-600">
+                Do you teach international students?
+              </h3>
+
+              <p className="mt-3 text-gray-700">
+                Yes, we teach students from the USA, Canada, UK,
+                UAE, Singapore, India, and other countries.
+              </p>
+            </div>
+
+          </div>
+
+        </section>
+
+        {/* CTA */}
+        <div className="mt-20 text-center bg-gradient-to-r from-blue-600 to-purple-600 p-12 rounded-[35px] text-white">
+
+          <h2 className="text-4xl font-extrabold">
+            Help Your Child Become a Confident Reader & Writer
+          </h2>
+
+          <p className="mt-6 text-xl text-white/90">
+            Book a free demo class and start personalized English learning today.
+          </p>
+
+          <Link
+            href="/student-enrollment"
+            className="inline-block mt-8 bg-white text-blue-700 px-10 py-5 rounded-2xl text-lg font-bold hover:scale-105 transition"
+          >
+            Book Free Demo Class
+          </Link>
+
+        </div>
+
       </div>
 
     </main>

@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Online Python Programming Classes | LearnAtHome",
+  title: "Online Python Programming Classes | LearnGurukul",
   description:
     "Interactive online Python programming classes for students with beginner to advanced coding lessons, projects, and personalized learning.",
 };

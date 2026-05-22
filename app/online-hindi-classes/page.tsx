@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Online Hindi Classes | LearnAtHome",
+  title: "Online Hindi Classes | LearnGurukul",
   description:
     "Interactive Hindi language classes for speaking, grammar, writing, and reading skills.",
 };
