@@ -11,7 +11,7 @@ export default function PythonPage() {
       <div className="max-w-7xl mx-auto">
 
         {/* HERO SECTION */}
-        <div className="text-center max-w-5xl mx-auto">
+        <div className="tex-center max-w-5xl mx-auto">
 
           <p className="text-blue-600 font-bold tracking-[4px] uppercase">
             Python Programming
